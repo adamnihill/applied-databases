@@ -1,0 +1,29 @@
+db.docs.aggregate(
+   [
+      {
+         "$match":{
+            "details":{
+               "$exists":true,
+               "$ne":null
+            }
+         }
+      },
+      {
+         "$project":{
+            "_id":0,
+            "details.name":1,
+            "qualifications":{
+               "$ifNull":[
+                  "$qualifications",
+                  "none"
+               ]
+            }
+         }
+      },
+      {
+         "$sort":{
+            "details.name":1
+         }
+      }
+   ]
+)

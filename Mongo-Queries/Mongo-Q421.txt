@@ -1,0 +1,17 @@
+db.docs.aggregate(
+   [
+      {
+         "$group":{
+            "_id":null,
+            "Average":{
+               "$avg":"$details.age"
+            }
+         }
+      },
+      {
+         "$project":{
+            "_id":0
+         }
+      }
+   ]
+)

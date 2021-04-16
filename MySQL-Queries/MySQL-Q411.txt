@@ -1,0 +1,1 @@
+SELECT city.Name, hasvisitedcity.dateArrived, country.NameFROMhasvisitedcityINNER JOIN city ON hasvisitedcity.cityID = city.IDINNER JOIN country ON city.CountryCode = country.CodeWHERE hasvisitedcity.personID = 2ORDER BYcity.Name;

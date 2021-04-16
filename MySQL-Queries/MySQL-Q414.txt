@@ -1,0 +1,1 @@
+SELECT city.name, country.name, countryLanguage.language, countryLanguage.percentageFROMcountryLanguageINNER JOIN country ON countryLanguage.CountryCode = country.CodeINNER JOIN city on country.Capital = city.IDWHERE isOfficial = "T"ANDcountry.continent = "North America"ORDER BYcity.Name ASC,country.Name ASC,countryLanguage.language ASC,countryLanguage.percentage ASC;

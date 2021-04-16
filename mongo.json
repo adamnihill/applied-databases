@@ -1,0 +1,11 @@
+{"_id":"DATA","name":"H. Dip. in Data Analytics","level":8}
+{"_id":"SW","name":"H. Dip. in SW Devel","level":8}
+{"_id":"ARTS","name":"B.A.","level":8}
+{"_id":"ENG","name":"B.Eng.","level":7}
+{"_id":"G0012345","details":{"name":"John Smith","address":"Tuam","age":21},"qualifications":["ARTS","DATA"]}
+{"_id":"G0022222","details":{"name":"Mary Murphy","address":"Castlebar","age":21},"qualifications":["ARTS"]}
+{"_id":"G0033333","details":{"name":"Tom Kenna","address":"Dublin","age":20}}
+{"_id":"G0044444","details":{"name":"Brian Collins","address":"Dublin","age":35},"qualifications":["ENG", "SW"]}
+{"_id":"G0055555","details":{"name":"Bernie Lynch","address":"Galway","age":40},"qualifications":["ARTS"]}
+{"_id":"G0066666","details":{"name":"Alan Higgins","address":"Galway","age":53},"qualifications":["ENG, SW"]}
+{"_id":"G0077777","details":{"name":"Mick O'Hara","address":"Ballinasloe","age":41},"qualifications":["ENG","DATA","SW"]}

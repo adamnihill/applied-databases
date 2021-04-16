@@ -1,0 +1,20 @@
+db.docs.aggregate(
+   [
+      {
+         "$match":{
+            "qualifications":{
+               "$exists":true,
+               "$ne":null
+            }
+         }
+      },
+      {
+         "$project":{
+            "_id":"$qualifications"
+         }
+      },
+      {
+         "$count":"Qualified Students"
+      }
+   ]
+)
