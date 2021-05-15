@@ -84,9 +84,8 @@ def viewPeople():
     print("-----------")
     query = "Select * FROM person;"
     
-    with conn:
-        cursor = conn.cursor()
-        cursor.execute(query)
+    cursor = conn.cursor()
+    cursor.execute(query)
     
     while True:
         people = cursor.fetchmany(size = 2)
