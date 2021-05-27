@@ -20,4 +20,5 @@ This repository contains my code for the Applied Databases project, the instruct
  - Navigate to repository.\
  ```cd applied-databases
     cd PythonApp
-    python menu.py```
+    python menu.py
+ ```
