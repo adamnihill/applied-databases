@@ -17,8 +17,7 @@ This repository contains my code for the Applied Databases project, the instruct
  ## How to Run App from Docker Container
  - Clone this repository by running the following command on your command line.\
  ``` git clone https://github.com/adamnihill/applied-databases.git```
- - Navigate to repository.
- ```cd applied-databases
-    cd PythonApp
-    python menu.py
- ```
+ - Navigate to repository.\
+ ```cd applied-databases```
+ ```cd PythonApp```
+ ```python menu.py```
