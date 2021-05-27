@@ -19,7 +19,9 @@ This repository contains my code for the Applied Databases project, the instruct
  ``` git clone https://github.com/adamnihill/applied-databases.git```
  - Navigate to repository.\
  ```cd applied-databases```\
- ```cd PythonApp```\
+ ```cd PythonApp```
  - Then run the following command.\
- ```python menu.py```\
- - You can the can then run any of the available commands by  pressing the corresponding number and close the app by pressing "x".
+ ```python menu.py```
+ - You can the can then interact with any of the menu options by pressing the corresponding number.\ 
+   These options are all explained on screen.\
+ - The app can be closed by by pressing "x".
