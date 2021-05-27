@@ -14,10 +14,12 @@ This repository contains my code for the Applied Databases project, the instruct
  
 
  
- ## How to Run App from Docker Container
+ ## How to the Menu App
  - Clone this repository by running the following command on your command line.\
  ``` git clone https://github.com/adamnihill/applied-databases.git```
  - Navigate to repository.\
- ```cd applied-databases```
- ```cd PythonApp```
- ```python menu.py```
+ ```cd applied-databases```\
+ ```cd PythonApp```\
+ - Then run the following command.\
+ ```python menu.py```\
+ - You can the can then run any of the available commands by  pressing the corresponding number and close the app by pressing "x".
