@@ -22,6 +22,5 @@ This repository contains my code for the Applied Databases project, the instruct
  ```cd PythonApp```
  - Then run the following command.\
  ```python menu.py```
- - You can the can then interact with any of the menu options by pressing the corresponding number.\ 
-   These options are all explained on screen.\
+ - You can the can then interact with any of the menu options by pressing the corresponding number. These options are all explained on screen.\
  - The app can be closed by by pressing "x".
